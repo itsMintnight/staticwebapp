@@ -25,7 +25,7 @@ img {
 
 .dog_pictures_container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 33% 33% 33%;
 }
 .dog_pictures_container div {
   margin: 5px;
