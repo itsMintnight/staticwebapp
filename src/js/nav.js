@@ -1,5 +1,13 @@
 document.write('\
-    <header>\
+<html lang="en-US">\
+<head>\
+    <meta charset="utf-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1">\
+    <title>Home</title>\
+    <link rel="stylesheet" href="css/styles.css">\
+</head>\
+\
+<header>\
     <nav class="nav">\
         <a href="index.html" id="homeicon"><strong>Home</strong></a>\
             <ul>\
@@ -11,3 +19,5 @@ document.write('\
 </header>\
 <hr>\
 ');
+
+/* https://stackoverflow.com/a/15250208 */
