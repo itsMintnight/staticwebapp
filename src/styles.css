@@ -1,0 +1,21 @@
+.nav {
+
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#homeicon {
+  float: left;
+  padding: 0;
+}
