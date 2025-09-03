@@ -23,7 +23,6 @@ img {
   padding: 10px;
 }
 
-
 .dog_pictures_container {
   display: grid;
   grid-template-columns: repeat(3, auto);
