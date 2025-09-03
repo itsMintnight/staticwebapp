@@ -1,0 +1,13 @@
+document.write('\
+    <header>\
+    <nav class="nav">\
+        <a href="index.html" id="homeicon"><strong>Home</strong></a>\
+            <ul>\
+                <li><a href="details.html">Details</a></li>\
+                <li><a href="about.html">About</a></li>\
+                <li><a href="new-animal-form.html">Make New Animal</a></li>\
+            </ul>\
+    </nav>\
+</header>\
+<hr>\
+');
