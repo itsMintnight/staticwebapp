@@ -1,3 +1,15 @@
+/* Global */
+img {
+  width: 250px;
+  height: 250px;
+}
+
+#homeicon {
+  float: left;
+  padding: 0;
+}
+
+/* index.html */
 .nav ul {
   display: flex;
   list-style-type: none;
@@ -11,22 +23,24 @@
   padding: 10px;
 }
 
-#homeicon {
-  float: left;
-  padding: 0;
-}
 
-img {
-  width: 250px;
-  height: 250px;
-}
-
-.container {
+.dog_pictures_container {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-.container div {
+.dog_pictures_container div {
   margin: 5px;
 }
+
+/* details.html */
+.details_container {
+  height: 250px;
+}
+
+.image_container {
+  float: left;
+  margin-right: 25px;
+}
+
 
 
