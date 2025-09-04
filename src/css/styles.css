@@ -4,13 +4,6 @@ html {
   font-family: monospace;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  background-color: floralwhite;
-  padding-top: 5px;
-}
-
 body {
   margin-left: 100px;
   margin-right: 100px;
@@ -31,6 +24,13 @@ img {
 
 
 /*nav.js*/
+header {
+  position: sticky;
+  top: 0;
+  background-color: floralwhite;
+  padding-top: 5px;
+}
+
 #homeicon {
   float: left;
   padding: 0;
