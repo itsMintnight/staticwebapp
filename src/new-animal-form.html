@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Add a new animal</title>
-	<link rel="stylesheet" href="styles.css">
+<script src="js/nav.js"></script>
 
-</head>
+<form>
+	<label for="name">Name: </label><br>
+	<input type="text" id="name" name="name"><br><br>
 
-<header>
-	<nav class="nav">
-		<a href="index.html" id="homeicon"><strong>Home</strong></a>
-			<ul>
-				<li><a href="details.html">Details</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="new-animal-form.html">Make New Animal</a></li>
-			</ul>
-	</nav>
-</header>
+	<label for="breed">Breed: </label><br>
+	<input type="text" id="breed" name="breed"><br><br>
 
+	<label for="dob">Date of Birth: </label><br>
+	<input type="date" id="dob" name="dob"><br><br>
+
+	<label for="url">Link to Picture: </label><br>
+	<input type="text" id="url" name="url"><br><br>
+
+	<label for="desc">Description: </label><br>
+	<input type="text" id="desc" name="desc"><br><br>
+
+	<input type="submit" value="Submit"><br>
+</form>
 </html>

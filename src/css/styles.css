@@ -1,0 +1,45 @@
+/* Global */
+img {
+  width: 250px;
+  height: 250px;
+}
+
+#homeicon {
+  float: left;
+  padding: 0;
+}
+
+/* index.html */
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dog_pictures_container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.dog_pictures_container div {
+  margin: 5px;
+}
+
+/* details.html */
+.details_container {
+  height: 250px;
+}
+
+.image_container {
+  float: left;
+  margin-right: 25px;
+}
+
+
+
