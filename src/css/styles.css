@@ -1,4 +1,10 @@
 /* Global */
+
+html {
+  background-color: floralwhite;
+  font-family: monospace;
+}
+
 img {
   width: 250px;
   height: 250px;
@@ -9,12 +15,12 @@ img {
   padding: 0;
 }
 
-/* index.html */
 .nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  back
 }
 
 .nav a {
@@ -23,12 +29,26 @@ img {
   padding: 10px;
 }
 
+/* index.html */
+
 .dog_pictures_container {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: 300px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: floralwhite;
 }
+
 .dog_pictures_container div {
-  margin: 5px;
+  width: 250px;
+  border: 2px solid black;
+}
+
+.dog_pictures_container img {
+  border-bottom: 2px solid black;
 }
 
 /* details.html */
