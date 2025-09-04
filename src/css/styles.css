@@ -20,7 +20,6 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  back
 }
 
 .nav a {
@@ -29,17 +28,24 @@ img {
   padding: 10px;
 }
 
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: floralwhite;
+}
+
+p {
+  white-space: pre-line;
+}
+
 /* index.html */
 
 .dog_pictures_container {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
   min-width: 300px;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  background-color: floralwhite;
 }
 
 .dog_pictures_container div {
@@ -56,9 +62,14 @@ img {
   height: 250px;
 }
 
-.image_container {
+.details_container img {
   float: left;
   margin-right: 25px;
+  border: 1px solid black;
+}
+
+.description {
+
 }
 
 

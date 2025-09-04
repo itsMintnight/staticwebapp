@@ -3,7 +3,6 @@ document.write('\
 <head>\
     <meta charset="utf-8">\
     <meta name="viewport" content="width=device-width, initial-scale=1">\
-    <title>Home</title>\
     <link rel="stylesheet" href="css/styles.css">\
 </head>\
 \
@@ -13,7 +12,7 @@ document.write('\
             <ul>\
                 <li><a href="details.html">Details</a></li>\
                 <li><a href="about.html">About</a></li>\
-                <li><a href="new-animal-form.html">Make New Animal</a></li>\
+                <li><a href="new-animal-form.html">Add New Animal</a></li>\
             </ul>\
     </nav>\
 </header>\
