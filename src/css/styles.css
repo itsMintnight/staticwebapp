@@ -64,10 +64,7 @@ header {
 .dog_pictures_container div {
   width: 250px;
   border: 2px solid black;
-}
-
-.dog_pictures_container img {
-  border-bottom: 2px solid black;
+  padding: 3px;
 }
 
 
@@ -80,7 +77,6 @@ header {
 .details_container img {
   float: left;
   margin-right: 25px;
-  border: 1px solid black;
 }
 
 
