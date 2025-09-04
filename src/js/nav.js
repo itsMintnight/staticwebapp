@@ -15,8 +15,8 @@ document.write('\
                 <li><a href="new-animal-form.html">Add New Animal</a></li>\
             </ul>\
     </nav>\
+    <hr>\
 </header>\
-<hr>\
 ');
 
 /* https://stackoverflow.com/a/15250208 */

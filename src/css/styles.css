@@ -4,11 +4,33 @@ html {
   font-family: monospace;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: floralwhite;
+  padding-top: 5px;
+}
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+
+  background-color: floralwhite;
+}
+
+p {
+  white-space: pre-line;
+}
+
 img {
   width: 250px;
   height: 250px;
 }
 
+
+
+/*nav.js*/
 #homeicon {
   float: left;
   padding: 0;
@@ -19,6 +41,7 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  justify-content: right;
 }
 
 .nav a {
@@ -27,15 +50,7 @@ img {
   padding: 10px;
 }
 
-body {
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: floralwhite;
-}
 
-p {
-  white-space: pre-line;
-}
 
 /* index.html */
 .dog_pictures_container {
@@ -55,6 +70,8 @@ p {
   border-bottom: 2px solid black;
 }
 
+
+
 /* details.html */
 .details_container {
   height: 250px;
@@ -65,6 +82,8 @@ p {
   margin-right: 25px;
   border: 1px solid black;
 }
+
+
 
 /* about.html */
 #specialimage {
