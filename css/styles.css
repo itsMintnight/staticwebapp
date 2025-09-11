@@ -67,7 +67,12 @@ header {
   padding: 3px;
 }
 
-
+.search_container {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
 
 /* details.html */
 .details_container {
